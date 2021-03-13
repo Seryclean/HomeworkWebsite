@@ -4,22 +4,63 @@
     <title>
         <p>HomeWorkWebsite1</p>
     </title>
-    <p> This is my first Website!</p>
-    <link rel="stylesheet" href="style.css">
-
+    <p> 
+        <h1>Just A Titel</h1>
+    </p>
+    <link rel="stylesheet" href="styles.css">
+<script>
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+</script>
 </head>
 
-<body>
-    <div>
-        <p> Some thing to remember</p>
-    </div>
-    <div>
-        <p> Some thing to see</p>
-    </div>
+<body>  
+    <div id= "box_image1"><a href="anh123.jpg">Khuat Hong Son</a></div>
+    <button id ="bt" type="button" onclick="changeBodyBg('#0E141B');">ChangeColor</button>;
+    <button id ="bt" type="button" onclick="changeBodyBg('#ffffff');">ChangeColor</button>;
     
+    <div class="box">
+        
+        <p> Essen</p>
+        
+        <ul class="eat">
+            <li> Pizza</li>
+            <li id="special"> Spaghetti</li>
+        </ul>
 
+    </div>
+    <div class="box box--orange">
+        <p>Getränk</p>
 
+        <ul class="drink">
+            
+            <li> Coke</li>
+            <li> Fanta</li>
 
+        </ul>
+    </div>
+    <div class="box box--orange">
+        <p>Getränk</p>
+
+        <ul class="drink">
+            
+            <li> Coke</li>
+            <li> Fanta</li>
+
+        </ul>
+    </div>
+    <div class="box box--gold">
+        <p>Entertainment</p>       
+        <ul>            
+            <li>Dance</li>
+            <li>Play</li>
+        </ul>
+    </div>
+    <p class="text"> Dieses etwas Text</p>
+
+<script type="text/javascript">
+</script>
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+$bgcolor: silver;
+$color:#d41d1d;
+body {
+    background-color: $bgcolor;
+
+}
+
+    .text{
+        color:$color;
+    }
+
+    .box {
+        width: 250px;
+        height: 250px;
+        background-color: brown;
+        position: relative;
+        float: left;
+        /* display: inline-block; */
+        padding: 20px 50px 50px 30px;
+
+        &--orange {
+            background-color: orange;
+            margin-left: -40px;
+            margin-top: 40px;
+            z-index: -1;
+            padding-left: 50px;
+        }
+
+        &--gold {
+            background-color: gold;
+            position: absolute;
+            left: 150px;
+            top: 250px;
+            z-index: 1;
+    
+        }
+
+    }
+   
+  
+    .eat {
+        color:$color;
+        }
+
+    #special {
+        color: cyan;
+        }
+
+    .drink {
+        color: darkblue;
+        }
+    
