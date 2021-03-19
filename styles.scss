@@ -9,6 +9,15 @@ body {
         color:$color;
     }
 
+    .box_image1{
+        width: 250px;
+        height: 250px;
+        background-image:url(/anh123.jpg);
+        position: relative;
+        float: left;
+        padding: 20px 50px 50px 30px;
+        background-repeat: no-repeat;
+    }
     .box {
         width: 250px;
         height: 250px;
