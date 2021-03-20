@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $("#bt").on('click',function(){
-        $("#box").toggle();
+        $("#btt").toggle().css("background-color","red");
     });
 });
