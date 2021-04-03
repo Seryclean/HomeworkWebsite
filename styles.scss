@@ -1,69 +1,59 @@
 $bgcolor: silver;
 $color:#d41d1d;
 
-head {
-     width: 150px;
-     height: 150px;
-     background-color: none;
-     position: fixed;
-     float: left;
-}
-
 body {
-    background-color: brown;
-}
-body.newcolor{
     background-color:$bgcolor;
 }
-.box_image1 {
-    width: 250px;
-    height: 250px;
-    background-image:url(anhanh.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    float: left;   
-    padding: left;     
+
+body.newcolor{
+    background-color:black;
 }
 
-    .box {
-        width: 250px;
-        height: 250px;
-        background-color: brown;
+    .box_image1 {
+        width: 48px;
+        height: 48px;
+        background-image:url(anhanh.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position:relative;
+        float: left;   
+        padding: left;     
+    }
+
+    .button {
+
+        width: 48px;
+        height: 48px;
+        background-image: url(button.jpg);
+        background-size: cover;
+        border-inline-color: none;
+        border-radius: 50%;
+        position: relative;
+        float: right; 
+    }
+
+    #name {
+
         position: relative;
         float: left;
-        /* display: inline-block; */
-        padding: 20px 50px 50px 30px;
-
-        &--orange {
-            background-color: orange;
-            margin-left: -40px;
-            margin-top: 40px;
-            z-index: -1;
-            padding-left: 50px;
-        }
-
-        &--gold {
-            background-color: gold;
-            position: absolute;
-            left: 150px;
-            top: 250px;
-            z-index: 1;
-    
-        }
-
     }
-   
-  
-    .eat {
-        color:$color;
-        }
 
-    #special {
-        color: cyan;
-        }
+    .site {
+        
+        font-size:large;
+        position: relative;
+        float: left;
+        margin: 0px 20px 0px 300px;
+    }
 
-    .drink {
-        color: darkblue;
-        }
+    .intro{
+        background-color: yellow;
+        position: relative;
+        float: left;
+        margin-top: 250px;
+    }
+    
+
+
     
