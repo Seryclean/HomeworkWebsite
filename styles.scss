@@ -1,28 +1,31 @@
 $bgcolor: silver;
 $color:#d41d1d;
+
 head {
      width: 150px;
      height: 150px;
      background-color: none;
      position: fixed;
      float: left;
-    }
+}
 
 body {
-    background-color: black;
+    background-color: brown;
 }
-.newcolor{
+body.newcolor{
     background-color:$bgcolor;
 }
-    .box_image1{
+.box_image1 {
     width: 250px;
     height: 250px;
     background-image:url(anhanh.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     position:relative;
     float: left;   
     padding: left;     
-    }
+}
+
     .box {
         width: 250px;
         height: 250px;
