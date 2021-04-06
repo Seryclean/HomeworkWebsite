@@ -8,7 +8,18 @@ body {
 body.newcolor{
     background-color:black;
 }
+    h2 {color: white;}
+    
+    p {color: white;}
 
+    #contentcolor {color: black;}
+    
+    .container{
+        max-width: 1200px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
     .box_image1 {
         width: 48px;
         height: 48px;
@@ -34,24 +45,31 @@ body.newcolor{
     }
 
     #name {
-
+        text-decoration-color: white;
         position: relative;
         float: left;
     }
 
     .site {
-        
+
+        text-decoration-color:white;
         font-size:large;
         position: relative;
         float: left;
         margin: 0px 20px 0px 300px;
+
     }
 
     .intro{
-        background-color: yellow;
+        background-color: white;
         position: absolute;
         float: left;
         margin-top: 138px;
+        max-width: 1200px;
+        max-height: 800px;
+        height: 414px;
+        width: 100%;
+
     }
     
 
