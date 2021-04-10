@@ -1,0 +1,7 @@
+body {
+    background-color:white;
+}
+
+body.newcolor{
+    background-color:black;
+}
