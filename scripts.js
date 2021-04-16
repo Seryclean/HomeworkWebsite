@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $("#bt").on('click',function(){
-        $("body").toggleClass("newcolor");
+        $("body").toggleClass("newcolorA");
+        $("div.intro").toggleClass("newcolorB");
+        $("div.navbar").addClass("nav-dark").toggleClass("newcolorC");
     });
 });
