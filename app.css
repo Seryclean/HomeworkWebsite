@@ -1,7 +1,9 @@
 body {
     background-color:white;
+    color: black;
 }
 
 body.newcolor{
     background-color:black;
+    color: white;
 }
