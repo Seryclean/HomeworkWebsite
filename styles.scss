@@ -6,57 +6,65 @@ body {
     color: $color;
 }
 
-body.newcolorA{
+body.newcolorA {
     background-color:black;
     color: white;
 }
-h1{
-    font-size: 80px;
+
+h1 {
+    font-size: 30px;
 }
-.intro{
+
+.intro {
     background-color: $bgcolor;
     color: $color;
 }
-.intro.newcolorB{
+
+.introText {
+    font-size: 50px;
+}
+
+.newcolorA .intro {
     background-color: black;
     color: white;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     top:0;
     padding: 5px;
     
-    .navbar-custom{
+    &.navbar-custom {
         background-color: white;
         color:black;
     }
     
 }
 
-.navbar-custom.newcolorC{
+.newcolorA .navbar-custom {
     background-color: black;
     color: white;
 }
 
-.table{
+.table {
     position: relative;
-    .table-custom{
+
+    .table-custom {
         background-color: white;
         color: black;
     }
         
-        img{
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            max-width: 100%;
-            height: auto;
-            width: 150px;
-        }
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 100%;
+        height: auto;
+        width: 150px;
+    }
 }
 
-.table-custom.newcolorD{
+.newcolorA .table-custom {
     background-color: black;
     color: white;
 }
