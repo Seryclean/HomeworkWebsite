@@ -10,6 +10,9 @@ body.newcolorA{
     background-color:black;
     color: white;
 }
+h1{
+    font-size: 80px;
+}
 .intro{
     background-color: $bgcolor;
     color: $color;
@@ -19,14 +22,41 @@ body.newcolorA{
     color: white;
 }
 
-.navbar {
+.navbar{
     position: sticky;
     top:0;
     padding: 5px;
-    background-color: white;
+    
+    .navbar-custom{
+        background-color: white;
+        color:black;
+    }
+    
 }
 
-.navbar.newcolorC{
+.navbar-custom.newcolorC{
+    background-color: black;
+    color: white;
+}
+
+.table{
+    position: relative;
+    .table-custom{
+        background-color: white;
+        color: black;
+    }
+        
+        img{
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            max-width: 100%;
+            height: auto;
+            width: 150px;
+        }
+}
+
+.table-custom.newcolorD{
     background-color: black;
     color: white;
 }
