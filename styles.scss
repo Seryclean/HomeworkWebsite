@@ -13,16 +13,24 @@ body.newcolorA {
 
 h1 {
     font-size: 30px;
+    font-family: 'Lobster', cursive;
 }
 
 .intro {
     background-color: $bgcolor;
     color: $color;
+
+    .intro_Text1 {
+        font-size: 50px;
+        font-family: 'Corben', cursive;
+    }
+
+    .intro_Text2 {
+        font-size: 40px;
+        font-family: 'Tangerine', cursive;
+    }
 }
 
-.intro_Text {
-    font-size: 50px;
-}
 
 .newcolorA .intro {
     background-color: black;
