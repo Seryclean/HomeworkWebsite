@@ -80,6 +80,18 @@ h1 {
     }
 }
 
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.newcolorA {
+
+    .slick-prev:before, .slick-next:before {
+        color: white;
+    }
+}
+
 
 
     
