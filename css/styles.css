@@ -85,4 +85,18 @@ h1 {
   color: white;
 }
 
+.footer {
+  font-size: 15px;
+  padding: 3px;
+}
+.footer .footer_inner {
+  color: black;
+  border-top: 1px solid blue;
+}
+.footer .footer_inner .nav-item {
+  display: block;
+  position: relative;
+  margin-left: 15px;
+}
+
 /*# sourceMappingURL=styles.css.map */
