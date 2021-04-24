@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+body.newcolorA {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+.intro {
+  background-color: white;
+  color: black;
+}
+.intro .intro_Text1 {
+  font-size: 50px;
+  font-family: "Corben", cursive;
+}
+.intro .intro_Text2 {
+  font-size: 40px;
+  font-family: "Tangerine", cursive;
+}
+
+.newcolorA .intro {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+.navbar.navbar-custom {
+  background-color: white;
+  color: black;
+}
+
+.newcolorA .navbar-custom {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  position: relative;
+}
+.table .table-custom {
+  background-color: white;
+  color: black;
+}
+.table img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
+
+.newcolorA .table-custom {
+  background-color: black;
+  color: white;
+}
+
+.sliderA img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.newcolorA .slick-prev:before, .newcolorA .slick-next:before {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
