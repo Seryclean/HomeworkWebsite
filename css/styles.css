@@ -98,5 +98,10 @@ h1 {
   position: relative;
   margin-left: 15px;
 }
+.footer .footer_icon {
+  position: relative;
+  display: block;
+  padding-right: 0;
+}
 
 /*# sourceMappingURL=styles.css.map */
